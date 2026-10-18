@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+frontend/dist/
+coverage/
+*.tsbuildinfo
+
+# Local development tooling state
+.agents/
+.cache/
+.conversation/
+.local/
+.upm/
+.replit
+
+# Logs and OS files
+npm-debug.log*
+.DS_Store
+Thumbs.db
