@@ -344,7 +344,7 @@ async function seedMemory() {
       { id: objectId(), teamName: "Team David", username: "David", password: await bcrypt.hash("1234", 10), active: true, score: 0, createdAt: new Date() },
       { id: objectId(), teamName: "Team Joseph", username: "Joseph", password: await bcrypt.hash("1234", 10), active: true, score: 0, createdAt: new Date() },
       { id: objectId(), teamName: "Team Daniel", username: "Daniel", password: await bcrypt.hash("1234", 10), active: true, score: 0, createdAt: new Date() },
-      { id: objectId(), teamName: "Team Abraham", username: "Abraham", password: await bcrypt.hash("1234", 10), active: true, score: 0, createdAt: new Date() },
+      { id: objectId(), teamName: "Team Abraham", username: "Abram", password: await bcrypt.hash("123", 10), active: true, score: 0, createdAt: new Date() },
 
     ];
   }
