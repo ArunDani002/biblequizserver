@@ -265,6 +265,7 @@ export async function connectStore() {
       options: question.options,
       correctAnswer: question.correctAnswer,
       points: question.points,
+      reference: question.reference,
     }));
     const session = await QuizSessionModel.findOne()
       .sort({ updatedAt: -1 })
@@ -360,6 +361,7 @@ async function seedQuestions() {
       options: question.options,
       correctAnswer: question.correctAnswer,
       points: question.points,
+      reference: question.reference,
     }));
   } else {
     quizQuestions = seedQuestionBank.map((question) => ({
